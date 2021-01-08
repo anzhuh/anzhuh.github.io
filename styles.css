@@ -188,6 +188,7 @@ section{
     position:relative;
     font-size: 24px;
     font-weight:600;
+    color:var(--secondarycolour);
 }
 .project-subheading{
     padding:0;
@@ -196,6 +197,7 @@ section{
     font-size:20px;
     font-weight:100;
     overflow:visible;
+    color:var(--secondarycolour);
 }
 
 .projects img{
