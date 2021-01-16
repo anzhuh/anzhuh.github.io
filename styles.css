@@ -490,7 +490,9 @@ bottom:0;
         margin: 0 400px;
     }
     
-    
+    .gallery-container p{
+        font-size: 21px;
+    }
 }
 
 
