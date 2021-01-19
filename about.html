@@ -8,12 +8,18 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" type="image" href="./images/logo.svg">
     <script src="https://kit.fontawesome.com/a5b3d16113.js" crossorigin="anonymous"></script>
+
+    <!-- Animate on Scroll Library-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- FONTS -->
     <link
         href="https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Racing+Sans+One&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Racing+Sans+One&display=swap"
+        rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0GFSPW0H85"></script>
@@ -56,7 +62,7 @@
     </header>
 
     <section>
-        <div class="section-container">
+        <div class="section-container" data-aos="fade-up">
             <div class="section-heading">
                 <h1>
                     About me.
@@ -73,17 +79,19 @@
                     enjoyed my Art subjects immensely.
                 </p>
                 <p>
-                    On a day to day basis, I strive to create things that are just simple and easy to use, really. Minimalism has heavily inspired my way of approaching certain problems. As Leonardo Da Vinci once said, "Simplicity is the ultimate sophistication."
+                    On a day to day basis, I strive to create things that are just simple and easy to use, really.
+                    Minimalism has heavily inspired my way of approaching certain problems. As Leonardo Da Vinci once
+                    said, "Simplicity is the ultimate sophistication."
                 </p>
             </div>
         </div>
-        <div class="section-container">
+        <div class="section-container" data-aos="fade-up" data-aos-offset="50">
             <div class="section-heading">
                 <h1>
                     Why UX Design?
                 </h1>
             </div>
-            <div class="section-description">
+            <div class="section-description" data-aos="fade-up" data-aos-offset="50">
                 <p>
                     My passion for UX sparked when I finished my first year at university, after having learnt Human
                     Computer Interaction.
@@ -95,31 +103,30 @@
                     encountered such designs, I always kept thinking of methods to create a better user experience.
                 </p>
                 <p>
-                    I appreciated the whole UX and Human Centered Design process more and more. I was relieved when I 
-                    stumbled upon a field that focused around technology, art and storyteling. 
+                    I appreciated the whole UX and Human Centered Design process more and more. I was relieved when I
+                    stumbled upon a field that focused around technology, art and storyteling.
                 </p>
             </div>
         </div>
-        <div class="section-container">
+        <div class="section-container" data-aos="fade-up">
             <div class="section-heading">
                 <h1>
                     Interests & Hobbies
                 </h1>
             </div>
-            <div class="gallery">
-                <div class="gallery-container" id="puzzles">
+            <div class="gallery" >
+                <div class="gallery-container" id="puzzles" data-aos="fade-up">
                     <div class="gallery-image">
                         <img src="./images/puzzles2.jpg" alt="">
                     </div>
                     <h3>
-                        I like solving puzzles.
+                        Toy Puzzles.
                     </h3>
                     <p>
-                        I’ve always liked to solve puzzles even when I was young, especially the Rubik’s Cube. I had my
-                        fair share of speed cubing attempts, and my fastest time was 30 seconds!
+                        I’ve always liked solving puzzles; it's a good way to challenge myself in terms of logical thinking. From the Rubik's Cube, to the Fisher Cube - I like a good challenge!
                     </p>
                 </div>
-                <div class="gallery-container" id="swimming">
+                <div class="gallery-container" id="swimming" data-aos="fade-up">
                     <div class="gallery-image">
                         <img src="./images/swimming.jpg" alt="">
                     </div>
@@ -133,7 +140,7 @@
                 </div>
             </div>
             <div class="gallery">
-                <div class="gallery-container" id="clothing">
+                <div class="gallery-container" id="clothing" data-aos="fade-up">
                     <div class="gallery-image">
                         <img src="./images/clothing2.jpg" alt="">
                     </div>
@@ -145,7 +152,7 @@
                         I want to research and tackle, to provide sustainable and affordable fashion.
                     </p>
                 </div>
-                <div class="gallery-container" id="anime">
+                <div class="gallery-container" id="anime" data-aos="fade-up">
                     <div class="gallery-image">
                         <img src="./images/anime.jpg" alt="">
                     </div>
@@ -162,7 +169,7 @@
     </section>
 
     <footer>
-        <div class="footer-content">
+        <div class="footer-content" data-aos="fade-up">
             <div class="media-links">
                 <a href="https://www.linkedin.com/in/anzilleepuertogallera" id="linkedin">
                     <i class="fab fa-linkedin-in"></i>
@@ -176,7 +183,8 @@
             </div>
             <div class="footer-text">
                 <p>
-                    <span><i class="far fa-copyright"></i></span>2021 Anzil Puertogallera.<br>Coded and designed by me 💙
+                    <span><i class="far fa-copyright"></i></span>2021 Anzil Puertogallera.<br>Coded and designed by me
+                    💙
                 </p>
 
             </div>
@@ -184,6 +192,12 @@
     </footer>
 
     <script type="text/javascript" src="scripts.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
 </body>
 
 </html>

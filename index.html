@@ -10,13 +10,19 @@
 
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/a5b3d16113.js" crossorigin="anonymous"></script>
-    
+
+    <!-- Animate on Scroll Library-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     <!-- FONTS -->
     <link
         href="https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Racing+Sans+One&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Racing+Sans+One&display=swap"
+        rel="stylesheet">
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -76,7 +82,7 @@
     </main>
 
     <section>
-        <div class="projects-container" id="projects-container">
+        <div class="projects-container" data-aos="fade-up" id="projects-container">
             <div class="projects">
                 <a href="https://www.behance.net/gallery/110969931/KBStudy-Revision-App-UIUX-Case-Study">
                     <img src="./images/kstudy.jpg" alt="KBStudy case study">
@@ -91,7 +97,7 @@
                     </div>
                 </a>
             </div>
-            <div class="projects">
+            <div class="projects" data-aos="fade-up">
                 <a href="https://www.behance.net/gallery/111078177/sizelaunches-UIUX-Redesign-Case-Study">
                     <img src="./images/sizelaunches.jpg" alt="size launches case study">
 
@@ -105,7 +111,7 @@
                     </div>
                 </a>
             </div>
-            <div class="projects">
+            <div class="projects" data-aos="fade-up">
                 <a href="https://www.behance.net/gallery/108709343/Game-Library-UI-Design-Concept">
                     <img src="./images/gamelibrary.jpg" alt="game library project">
 
@@ -123,7 +129,7 @@
     </section>
 
     <footer>
-        <div class="footer-content">
+        <div class="footer-content" data-aos="fade-up">
             <div class="media-links">
                 <a href="https://www.linkedin.com/in/anzilleepuertogallera" id="linkedin">
                     <i class="fab fa-linkedin-in"></i>
@@ -146,6 +152,12 @@
     </footer>
 
     <script type="text/javascript" src="scripts.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
 </body>
 
 </html>
