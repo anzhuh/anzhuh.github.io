@@ -149,7 +149,7 @@ main{
     color:var(--primarycolour);
     font-weight: 500;
     margin-bottom: 10px;
-    text-shadow: 0 0, 0 0, 3px 2px #5260DE, 0 0 #5260DE;
+    text-shadow: 0 0, 0 0, 3px 2px #4F20D4, 0 0;
 }
 
 #subheading{
@@ -477,7 +477,7 @@ bottom:0;
 @media screen and (min-width:1200px){
     #heading{
         font-size: 96px;
-        text-shadow: 0 0, 0 0, 4px 4px #5260DE, 0 0;
+        text-shadow: 0 0, 0 0, 5px 4px #4F20D4, 0 0;
     }
 
     #subheading{
