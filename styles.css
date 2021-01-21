@@ -149,7 +149,7 @@ main{
     color:var(--primarycolour);
     font-weight: 500;
     margin-bottom: 10px;
-    text-shadow: 0 0, 0 0, 3px 2px #4A7DFF, 0 0;
+    text-shadow: 0 0, 0 0, 2px 2px #4A7DFF, 0 0;
 }
 
 #subheading{
